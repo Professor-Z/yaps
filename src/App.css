@@ -1,0 +1,26 @@
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #937507;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header{
+  color: white;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
+.container>a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  
+}
